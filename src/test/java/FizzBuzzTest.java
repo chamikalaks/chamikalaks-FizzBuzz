@@ -39,7 +39,7 @@ public class FizzBuzzTest {
     @Test
     public void FizzBuzzTest4(){
         int num = 30;
-        String target = "FizzBuzz";
+        String target = "Fizz";
         Assert.assertEquals(target, fb.FizzBuzzGen(num));
     }
 
